@@ -19,9 +19,9 @@ export function loader({ context }: Route.LoaderArgs) {
 
 export default function Home({ loaderData }: Route.ComponentProps) {
   return (
-    <div className="min-h-screen text-black bg-[#FFF6EA] p-10 text-lg">
-      <h1 className="text-black ">Our privacy policy</h1>
-      <h1 className="whitespace-pre text-sm">
+    <div className="min-h-screen text-black bg-[#FFF6EA] p-10 text-lg w-fit overflow-x-auto">
+      <h1 className="text-black bg-[#FFF6EA] w-fit">Our privacy policy</h1>
+      <h1 className="whitespace-pre text-sm bg-[#FFF6EA] w-full">
         {`
         PRIVACY POLICY
         Last updated September 14, 2025
@@ -56,6 +56,7 @@ export default function Home({ loaderData }: Route.ComponentProps) {
         
         
         TABLE OF CONTENTS
+        
            
         1. WHAT INFORMATION DO WE COLLECT?
         2. HOW DO WE PROCESS YOUR INFORMATION?
