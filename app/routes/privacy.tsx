@@ -19,7 +19,7 @@ export function loader({ context }: Route.LoaderArgs) {
 
 export default function Home({ loaderData }: Route.ComponentProps) {
   return (
-    <div className="min-h-screen text-black width-screen bg-[#FFF6EA] p-10 text-lg">
+    <div className="min-h-screen text-black bg-[#FFF6EA] p-10 text-lg">
       <h1 className="text-black ">Our privacy policy</h1>
       <h1 className="whitespace-pre text-sm">
         {`

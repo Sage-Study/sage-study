@@ -9,8 +9,7 @@ export default function Sidebar({ activePage }: SidebarProps) {
   const [expanded, setExpanded] = useState<boolean>(false);
 
   return (
-    <div className="fixed left-0 top-0 h-full flex items-center p-2 z-50">
-      <Menu size={24} onClick={() => setExpanded(prev => !prev)} className="block md:hidden self-start mt-15 bg-black/50 w-12 h-12 p-1 rounded-md absolute" />
+    <div className="hidden md:fixed md:flex left-0 top-0 h-full flex items-center p-2 z-50">
       <div
         onMouseEnter={() => setExpanded(true)}
         onMouseLeave={() => setExpanded(false)}

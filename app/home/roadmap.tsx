@@ -66,12 +66,12 @@ export function Roadmap() {
         <main id="roadmap" className="flex items-center justify-center pt-10 pb-4 bg-[#FFF6EA] text-black">
             <div className="flex-1 flex flex-col items-center gap-10 min-h-0 max-w-4xl mx-auto">
                 {/* Header */}
-                <div className="flex min-w-3xl flex-col items-center gap-4 bg-white px-7 py-5 rounded-lg shadow-lg">
+                <div className="flex md:min-w-3xl mx-2 flex-col items-center gap-4 bg-white px-7 py-5 rounded-lg shadow-lg">
                     <div className="flex flex-row items-center gap-8 relative">
                         <Map size={64} color="#8DB1AB" />
                         <h1 className="text-gray-900 font-semibold text-4xl relative z-10">Our Roadmap</h1>
                     </div>
-                    <h3 className="text-xl max-w-2xl text-center text-gray-800">We are always updating the app! Take a look at our progress:</h3>
+                    <h3 className="text-lg md:text-xl max-w-2xl text-center text-gray-800">We are always updating the app! Take a look at our progress:</h3>
                 </div>
 
                 {/* Legend */}
@@ -129,9 +129,11 @@ export function Roadmap() {
                 <div className="bg-gradient-to-r from-[#8DB1AB] to-[#587792] text-white rounded-lg p-6 shadow-lg max-w-2xl w-full text-center">
                     <h3 className="text-xl font-semibold mb-2">Have suggestions?</h3>
                     <p className="mb-4">We'd love to hear your ideas for making Sage Study even better!</p>
+                    {/* 
                     <button className="bg-white text-[#587792] px-6 py-2 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200">
                         Share Your Ideas
                     </button>
+                    */}
                 </div>
             </div>
         </main>
