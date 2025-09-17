@@ -14,7 +14,7 @@ export function Contact() {
 
                 <div className="flex flex-row md:gap-3 items-center mx-2">
                     <h1 className="text-3xl font-semibold mr-5">Our socials:</h1>
-                    <div className="flex flex-row md:gap-3 items-center hover:bg-[#F2AE6F] transition rounded-lg cursor-pointer select-none md:px-4 py-3">
+                    <div className="flex flex-row gap-2 md:gap-3 items-center hover:bg-[#F2AE6F] transition rounded-lg cursor-pointer select-none md:px-4 py-3">
                         <Instagram size={32} color="#587792" />
                         <h2 className="md:text-xl font-semibold">@sage-study</h2>
                     </div>

@@ -13,7 +13,7 @@ export function Creators() {
                 </div>
 
                 <div className="flex flex-col md:flex-row justify-center w-full mt-12 gap-5">
-                    <div className="flex flex-col md:flex-row px-2 md:px-0 items-start gap-5">
+                    <div className="flex flex-col md:flex-row px-5 md:px-0 items-start gap-5">
                         <img className="w-50 h-50 rounded-[200px] shadow-lg" src="./images/mason.jpg" />
                         <div className="flex flex-col gap-2 ">
                             <h1 className="text-4xl font-semibold">Mason M</h1>
@@ -21,7 +21,7 @@ export function Creators() {
                         </div>
                     </div>
 
-                    <div className="flex flex-row md:flex-col h-full justify-between gap-3">
+                    <div className="flex flex-row md:flex-col h-full md:justify-between gap-3">
                         <button onClick={() => window.open('https://github.com/NimbleValley', '_blank')} className="cursor-pointer rounded-lg p-2 hover:bg-[#F2AE6F] transition duration-350">
                             <Github size={42} />
                         </button>
@@ -34,7 +34,7 @@ export function Creators() {
                     </div>
                 </div>
 
-                <div className="flex flex-col md:flex-row-reverse justify-center w-full mt-15 gap-5 px-2 md:px-0">
+                <div className="flex flex-col md:flex-row-reverse justify-center w-full mt-15 gap-5 px-5 md:px-0">
                     <div className="flex flex-col md:flex-row-reverse items-start gap-5">
                         <img className="w-50 h-50 rounded-[200px] shadow-lg" src="./images/nick.jpg" />
                         <div className="flex flex-col gap-2 md:items-end ">
@@ -43,7 +43,7 @@ export function Creators() {
                         </div>
                     </div>
 
-                    <div className="flex flex-row md:flex-col h-full justify-between gap-3">
+                    <div className="flex flex-row md:flex-col h-full md:justify-between gap-3">
                         <button onClick={() => window.open('https://www.linkedin.com/in/nick-claditis-0541a9369/', '_blank')} className="cursor-pointer rounded-lg p-2 hover:bg-[#F2AE6F] transition duration-350">
                             <Linkedin size={42} />
                         </button>

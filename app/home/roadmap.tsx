@@ -126,7 +126,7 @@ export function Roadmap() {
                 </div>
 
                 {/* Call to action */}
-                <div className="bg-gradient-to-r from-[#8DB1AB] to-[#587792] text-white rounded-lg p-6 shadow-lg max-w-2xl w-full text-center">
+                <div className="bg-gradient-to-r from-[#8DB1AB] to-[#587792] text-white rounded-lg p-6 shadow-lg max-w-2xl mx-5 text-center">
                     <h3 className="text-xl font-semibold mb-2">Have suggestions?</h3>
                     <p className="mb-4">We'd love to hear your ideas for making Sage Study even better!</p>
                     {/* 
