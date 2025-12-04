@@ -26,7 +26,7 @@ export function Title({ message }: { message: string }) {
 
         <img className="hidden lg:flex lg:absolute w-47 cursor-pointer hover:scale-115 transition duration-500 border-2 rounded-lg border-gray-500 tranform rotate-2 h-100 right-10 top-5" src="./images/sample.png" alt="" />
 
-        <button className="mt-8 transform hover:-rotate-3 text-xl hover:shadow-[#CEE397] bg-gradient-to-r from-[#F2AE6F] to-[#F4E04D] shadow-lg font-semibold border-2 border-gray-400 hover:border-gray-700 hover:scale-115 hover:to-[#CEE397] hover:from-[#8DB1AB] cursor-pointer transition duration-250 px-10 py-5 rounded-2xl mt-3">Download coming SOON!</button>
+        <button onClick={() => window.open('https://apps.apple.com/us/app/sage-study/id6755408711#productRatings')} className="mt-8 transform hover:-rotate-3 text-xl hover:shadow-[#CEE397] bg-gradient-to-r from-[#F2AE6F] to-[#F4E04D] text-center shadow-lg font-semibold border-2 border-gray-400 hover:border-gray-700 hover:scale-115 hover:to-[#CEE397] hover:from-[#8DB1AB] cursor-pointer transition duration-250 px-10 py-5 rounded-2xl mt-3">Download from the APP STORE TODAY!</button>
 
     <p className="px-5 md:px-0 text-center">Stay up-to-date on our progress by checking the website and following one of our <a className="cursor-pointer hover:text-[#F2AE6F] transition font-bold text-xl text-[#587792]" onClick={() => jumpToReleventDiv('contact')}>socials!</a></p>
 
