@@ -39,7 +39,7 @@ export function Creators() {
                         <img className="w-50 h-50 rounded-[200px] shadow-lg" src="./images/nick.jpg" />
                         <div className="flex flex-col gap-2 md:items-end ">
                             <h1 className="text-4xl font-semibold">Nick C</h1>
-                            <h1 className="text-xl max-w-xl md:text-right">This is Nick C's biography. It is pretty interesting isn't it! He looks very dapper. </h1>
+                            <h1 className="text-xl max-w-xl md:text-right">I am a senior in high school and through my love for entrepreneurship I had the idea for the app! I plan on majoring in Business and Political Science in College. Check out the Instagram page to see a video of me! </h1>
                         </div>
                     </div>
 
